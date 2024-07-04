@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+ 
+  color: #000000;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+    width: 300px; 
+    height: 300px; 
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px; 
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .hero {
+      flex-direction: column; 
+    }
+  
+    .hero .button {
+      margin-top: 20px; 
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .activities ul li:nth-child(odd) {
+      display: none; 
+    }
+  }

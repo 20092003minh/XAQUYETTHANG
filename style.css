@@ -1,0 +1,57 @@
+
+
+body {
+   background-image: url("./trang.png"); 
+    background-repeat: repeat-y; 
+  background-position: center; 
+  background-size: cover; 
+  background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding:0px;
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+main{
+    text-align: center;
+    margin-top: 10em;
+    margin-bottom: 20em;
+}
+button{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 4em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer {
+    background-color: #e42532;
+    text-align: center;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px; /* Thay đổi kích thước phông chữ cho màn hình nhỏ hơn 600px */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    flex-direction: column; 
+  }
+
+  .hero .button {
+    margin-top: 20px; /* Thêm khoảng cách giữa tiêu đề và nút cho bố cục dạng cột */
+  }
+}
+@media only screen and (max-width: 480px) {
+  .activities ul li:nth-child(odd) {
+    display: none; /* Ẩn các mục danh sách lẻ cho màn hình nhỏ hơn 480px */
+  }
+}
